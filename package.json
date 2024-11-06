@@ -1,0 +1,21 @@
+{
+  "name": "@bestcodetools/create-test-file-for-nodejs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "bin": {
+    "@bestcodetools/create-test-file-for": "./bin/main",
+    "create-test-file-for": "./bin/main",
+    "create-test-for": "./bin/main",
+    "ctf": "./bin/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.0.1"
+  }
+}

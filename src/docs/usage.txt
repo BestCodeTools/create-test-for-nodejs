@@ -1,0 +1,17 @@
+
+Usage: create-test-for [options] <path1> <path2> ...
+
+Options:
+  --test-path=<path>  Path to store test files
+                      NOTE: Use "@" to store 
+                      test files in the same
+                      directory
+  --help              Show this help
+
+Examples:
+  create-test-for src --test-path=test/unit
+  create-test-for src --test-path=@
+
+Aliases:
+  ctf [options] <path1> <path2> ...
+  create-test-file-for [options] <path1> <path2> ...
