@@ -2,7 +2,7 @@
 
 ## Description
 
-A brief description of the project goes here.
+A CLI for generating dummy test files for .js|.ts|.jsx|.tsx
 
 ## Installation
 
@@ -10,15 +10,41 @@ A brief description of the project goes here.
 
 ## Usage
 
-To use the project, follow these steps:
+`create-test-for [options] <path1> <path2> ...`
 
-1. Step 1
-2. Step 2
-3. Step 3
+### Options:
+<table>
+  <thead>
+    <tr>
+      <th>Option</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>--test-path=&lt;path&gt;</td>
+      <td>Path to store test files</td>
+    </tr>
+    <tr>
+      <td>--help</td>
+      <td>Show help</td>
+    </tr>
+  </tbody>
+</table>
 
-## Contributing
 
-Contributions are welcome! Please follow the guidelines outlined in [CONTRIBUTING.md](link-to-contributing-guidelines).
+```node
+  NOTE: Use "--test-path=@" to store test files in the same directory as the source files
+```
+
+### Examples:
+  create-test-for src --test-path=test/unit
+  create-test-for src --test-path=@
+
+### Aliases:
+  * `ctf [options] <path1> <path2> ...`
+  * `create-test-file-for [options] <path1> <path2> ...`
+
 
 ## License
 
